@@ -1,0 +1,38 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #1abc9c !important;
+  }
+  
+  .footer-padding {
+    padding-bottom: 60px;
+  }
+  
+  .footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1abc9c;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+   

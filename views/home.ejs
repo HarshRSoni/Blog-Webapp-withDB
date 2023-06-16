@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p><%=firstParagraph%></p>
+
+<%userInputs.forEach(function(element){
+  %><h1><%=element.inputTitle%></h1>
+  <p><%=(element.inputText).substring(0, 100)%>
+
+  <%#Hidden read more first loadup condition#%>
+
+  <%if (element.inputTitle.length != 0) {%>
+  ...<a href="/posts/<%=element.inputTitleKebab%>">Read More</a>
+  <%}%>
+
+  </p>
+
+
+<%})%>
+
+
+
+
+
+<%- include("partials/footer"); -%>
